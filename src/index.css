@@ -25,10 +25,23 @@ nav ul{
     justify-content: space-around;
 }
 
+
+
+nav li:hover{
+    background-color: hsl(33, 46%, 55%);
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+}
+
 nav li a{
     color: black;
     text-decoration: none;
+
 }
+
+
+
+
 
 
 
