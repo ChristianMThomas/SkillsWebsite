@@ -11,14 +11,14 @@ header{
     border-bottom: 4px solid black;
 }
 
-nav{ 
+#container nav{ 
     background-color: hsl(33, 46%, 85%);
     width: 100%;
     font-size: 2rem;
     margin: auto;
 }
 
-nav ul{
+#container nav ul{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -27,13 +27,13 @@ nav ul{
 
 
 
-nav li:hover{
+#container nav li:hover{
     background-color: hsl(33, 46%, 55%);
     cursor: pointer;
     transition: 0.5 ease-in-out;
 }
 
-nav li a{
+#container nav li a{
     color: black;
     text-decoration: none;
 
@@ -109,3 +109,38 @@ nav li a{
     font-weight: bolder;
 }
 
+footer{
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer nav{
+    background-color: black;
+    color: white;
+}
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer nav li{
+    list-style: none;
+    font-size: 1.5rem;
+  
+}
+
+footer nav li a{
+    color: white;
+}

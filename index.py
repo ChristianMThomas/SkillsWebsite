@@ -154,3 +154,53 @@ for x in thistuple:
                 #User Input
 username = input("Enter username:")
 print("Username is: " + username)
+
+
+
+
+
+schoolNameMacon = "Macon", schoolAddressMacon = "3300 Macon Tech Dr, Macon, GA 31206"
+schoolNameWarner = "Warner Robins" , schoolAddressWarner = "80 Cohen Walker Dr, Warner Robins, GA 31088"
+isAlive = True
+
+                                          #And Operator
+
+if schoolNameMacon == "Macon" and schoolAddressMacon == "3300 Macon Tech Dr, Macon, GA 31206":
+   print("Your school is Macon")
+
+elif schoolNameWarner == "Warner Robins" and schoolAddressMacon == "80 Cohen Walker, Warner Robins, GA 31088":
+   print("Your school is Warner Robins")
+
+else:
+   print("Could not find your school")
+
+if not isAlive:                             # Not operaor
+   print("You are not alive")
+
+
+                                             #For loops
+
+
+for i in range(1, 21):                                               #Prints numbers 1 - 20     
+    print(i)
+
+                                          
+
+fooditems = ["Bread", "Apple", "Yogurt"]                            #For loop print each element in an array
+
+for i in fooditems :
+   print(i)
+
+
+                                            #Functions
+def displayMessage(){
+   print("HI")
+}
+displayMessage()
+                                            #Functions with Arguments
+def add_numbers(a, b):
+    sum = a + b
+    print('Sum:', sum)
+
+add_numbers(2, 3)
+
